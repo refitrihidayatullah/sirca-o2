@@ -3,6 +3,3 @@
 https://drive.google.com/file/d/1YGg9nAyDw_xiD_n9ofHh2Tv6tS6iL_B4/view?usp=sharing
 
 <!-- link untuk erd -->
-
-gambar menyusul
-ada perubahan silakan add
