@@ -1,0 +1,21 @@
+:root {
+    --header-color: #0082e6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.sidebar {
+    background: blue;
+}
+
+.sidebar .logo .subtext {
+    vertical-align: sub;
+    font-size: 18px;
+}
