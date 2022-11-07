@@ -13,13 +13,208 @@
 </head>
 
 <body>
+
     <!-- .sidebar first -->
+
+    <input style="position: absolute;" type="checkbox" id="nav-toggle">
     <div class="sidebar">
-        <div class="logo">
-            <h1>O<span class="subtext">2</span> UKM</h1>
+        <div class="sidebar-brand">
+            <h2>O<span class="subtext">2</span><span>UKM </span></h2>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="" class="menu__link">
+                        <span class="fa-sharp fa-solid fa-house"></span>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="menu__link">
+                        <span class="fa-sharp fa-solid fa-users-line"></span>
+                        <span>Data Calon Anggota</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="menu__link">
+                        <span class="fa-sharp fa-solid fa-hotel"></span>
+                        <span>Data Fakultas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="menu__link">
+                        <span class="fa-sharp fa-solid fa-users-gear"></span>
+                        <span>Data Admin</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="menu__link">
+                        <span class="fa-sharp fa-solid fa-gear"></span>
+                        <span>Setting</span>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
-    <!-- .sidebar end -->
+
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                <span class="fa-sharp fa-solid fa-bars"></span>
+                </label> Dashboard
+            </h2>
+            <div class="search-wrapper">
+                <span class="fa-sharp fa-solid fa-magnifying-glass"></span>
+                <input type="search" placeholder="Search here.." />
+            </div>
+            <div class="user-wrapper">
+                <img src="img/o2.png" alt="" width="30px" height="30px">
+                <div>
+                    <h4>Jhon Doe</h4>
+                    <small>Super Admin</small>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h1>54</h1>
+                        <span>Data Calon Anggota</span>
+                    </div>
+                    <div>
+                        <span class="fa-sharp fa-solid fa-users"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>5</h1>
+                        <span>Data Admin</span>
+                    </div>
+                    <div>
+                        <span class="fa-sharp fa-solid fa-users"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="calon-anggota-grid">
+                <div class="calon-anggota">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Data Calon Anggota</h2>
+
+                            <button>See all <span class="fa-sharp fa-solid fa-arrow-right"></span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table width="100%">
+                                    <thead>
+                                        <tr>
+                                            <td>Nama Calon Anggota</td>
+                                            <td>Jurusan</td>
+                                            <td>Status</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Refi Tri Hidayatullah</td>
+                                            <td>Teknologi Informasi</td>
+                                            <td>
+                                                <span class="status status-info"></span> review
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Arrohim Dwi Satria</td>
+                                            <td>Teknologi Informasi</td>
+                                            <td>
+                                                <span class="status status-success"></span> done
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Saipul S.</td>
+                                            <td>Pertanian</td>
+                                            <td>
+                                                <span class="status status-pending"></span> progress
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="admin">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Data Admin</h2>
+
+                            <button>See all <span class="fa-sharp fa-solid fa-arrow-right"></span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="admin">
+                                <div class="admin-info">
+                                    <img src="img/o2.png" alt="" width="40px" height="40px">
+                                    <div>
+                                        <h4>Lewis S . Stero</h4>
+                                        <small>Super Admin</small>
+                                    </div>
+                                    <div class="admin-contact">
+                                        <span class="fa-sharp fa-solid fa-address-card"></span>
+                                        <span class="fa-sharp fa-solid fa-phone"></span>
+                                        <span class="fa-sharp fa-solid fa-phone"></span>
+                                    </div>
+                                </div>
+                                <div class="admin-info">
+                                    <img src="img/o2.png" alt="" width="40px" height="40px">
+                                    <div>
+                                        <h4>Lewis S . Stero</h4>
+                                        <small>Super Admin</small>
+                                    </div>
+                                    <div class="admin-contact">
+                                        <span class="fa-sharp fa-solid fa-address-card"></span>
+                                        <span class="fa-sharp fa-solid fa-phone"></span>
+                                        <span class="fa-sharp fa-solid fa-phone"></span>
+                                    </div>
+                                </div>
+                                <div class="admin-info">
+                                    <img src="img/o2.png" alt="" width="40px" height="40px">
+                                    <div>
+                                        <h4>Lewis S . Stero</h4>
+                                        <small>Super Admin</small>
+                                    </div>
+                                    <div class="admin-contact">
+                                        <span class="fa-sharp fa-solid fa-address-card"></span>
+                                        <span class="fa-sharp fa-solid fa-phone"></span>
+                                        <span class="fa-sharp fa-solid fa-phone"></span>
+                                    </div>
+                                </div>
+                                <div class="admin-info">
+                                    <img src="img/o2.png" alt="" width="40px" height="40px">
+                                    <div>
+                                        <h4>Lewis S . Stero</h4>
+                                        <small>Super Admin</small>
+                                    </div>
+                                    <div class="admin-contact">
+                                        <span class="fa-sharp fa-solid fa-address-card"></span>
+                                        <span class="fa-sharp fa-solid fa-phone"></span>
+                                        <span class="fa-sharp fa-solid fa-phone"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
+        </div>
+        <!-- .sidebar end -->
+
+        <!-- js -->
+        <!-- <script defer src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+        <script src="js/admin.js"></script>
 </body>
 
 </html>
